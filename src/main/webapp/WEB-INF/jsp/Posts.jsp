@@ -27,5 +27,13 @@
         <a class="dropdown-item" href="#">User 3</a>
     </div>
 </div>
+<div class="toast">
+    <div class="toast-header">
+        Author Header
+    </div>
+    <div class="toast-body">
+        Some text inside the toast body
+    </div>
+</div>
 </body>
 </html>

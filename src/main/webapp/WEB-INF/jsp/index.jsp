@@ -15,6 +15,15 @@
 <body>
 <button type="button" class="btn btn-primary"><a class="dropdown-item" href="users">Users</a></button>
 <button type="button" class="btn btn-secondary"><a class="dropdown-item" href="posts">Posts</a></button>
+<form class="form-inline" action="/action_page.php">
+    <label for="name">First name:</label>
+    <input type="name" class="form-control" placeholder="Enter first name" id="name">
+    <label for="lastname">Last name:</label>
+    <input type="lastname" class="form-control" placeholder="Enter last name" id="lastname">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email">
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 <div class="container">
     <h2>Table with users</h2>
     <table class="table">
@@ -45,14 +54,6 @@
     </table>
 
 </div>
-<form class="form-inline" action="/action_page.php">
-    <label for="name">First name:</label>
-    <input type="name" class="form-control" placeholder="Enter first name" id="name">
-    <label for="lastname">Last name:</label>
-    <input type="lastname" class="form-control" placeholder="Enter last name" id="lastname">
-    <label for="email">Email address:</label>
-    <input type="email" class="form-control" placeholder="Enter email" id="email">
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+
 </body>
 </html>
