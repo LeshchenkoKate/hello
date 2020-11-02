@@ -5,15 +5,17 @@
   Time: 15:52
   To change this template use File | Settings | File Templates.
 --%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <title>Posts</title>
 </head>
 <link href="https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 <body>
-<button type="button" class="btn btn-primary" href="index.jsp">Users</button>
-<button type="button" class="btn btn-secondary" href="Posts.jsp">Posts</button>
+<button type="button" class="btn btn-primary"><a class="dropdown-item" href="users">Users</a></button>
+<button type="button" class="btn btn-secondary"><a class="dropdown-item" href="posts">Posts</a></button>
 <div class="dropdown">
     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Dropdown button
