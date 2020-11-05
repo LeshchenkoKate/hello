@@ -75,4 +75,14 @@ public class Author implements java.io.Serializable {
     public void setArticles(List<Article> articles) {
         this.articles = articles;
     }
+
+    @Override
+    public String toString() {
+        return "Developer:\n" +
+                "id: " + authorId +
+                "\nFirst Name: " + authorName + "\n" +
+                "Last Name: " + authorLastName + "\n" +
+                "Email: " + authorEmail + "\n" +
+                "Articles: " + articles + "\n";
+    }
 }

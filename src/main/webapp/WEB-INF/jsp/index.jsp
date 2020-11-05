@@ -36,7 +36,7 @@
         </thead>
         <tbody>
         <tr>
-            <td>John</td>
+            <td>Author.getAuthor()</td>
             <td>Doe</td>
             <td>john@example.com</td>
         </tr>
