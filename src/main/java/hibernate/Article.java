@@ -3,7 +3,7 @@ package hibernate;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
-
+//add
 @Entity
 @Table(name = "Article")
 public class Article implements java.io.Serializable {
