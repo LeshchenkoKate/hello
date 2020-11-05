@@ -3,7 +3,7 @@
   User: omegi
   Date: 01.11.2020
   Time: 15:52
-  To change this template use File | Settings | File Templates.
+  To change this template use File | Settings | File Templates.<!--cadd-->
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
