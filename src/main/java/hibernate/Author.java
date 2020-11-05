@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
 
+//add
 @Entity
 @Table(name = "Author")
 public class Author implements java.io.Serializable {
