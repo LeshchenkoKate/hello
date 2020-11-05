@@ -5,7 +5,7 @@
     <title>Add author</title>
 
 <body>
-
+<!--cadd-->
 <h1>Create new author</h1>
 
 <form:form method="POST" action="/addAuthor" modelAttribute="author">
