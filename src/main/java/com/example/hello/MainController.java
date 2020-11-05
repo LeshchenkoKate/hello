@@ -11,10 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.List;
 
 /**
- * Description:
- *
- * @author Aleksanid
- * created 01.11.2020
+
+add
  */
 @Controller
 public class MainController {
